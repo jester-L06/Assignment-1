@@ -1,3 +1,50 @@
-body{
-    background-color: aquamarine;
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* shared style */
+.font-inter {
+ font-family: "Inter", sans-serif;
+ font-optical-sizing: auto;
+}
+
+.logo img {
+ width: 139px;
+ height: 60px;
+ letter-spacing: 10px;
+ background-color: #FFFFFF;
+}
+
+.btn {
+ background-color: #469165;
+ border: none;
+ padding: 12.5px 16px;
+ border-radius: 4px;
+ font-size: 16px;
+ font-weight: 600;
+ color: #FFFFFF;
+ align-items: center;
+ cursor: pointer;
+}
+
+.btn:hover {
+ background-color: #cc6f6f;
+}
+
+/* main style */
+
+
+
+nav {
+ width: 1600px;
+ height: 92px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin: 0 auto;
+ padding: 16px 120px 16px 120px;
+ background-color: #FFFFFF;
+
 }
