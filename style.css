@@ -48,3 +48,49 @@ nav {
  background-color: #FFFFFF;
 
 }
+
+nav .menu {
+ align-items: center;
+ display: flex;
+ list-style-type: none;
+ gap: 32px;
+}
+
+nav .menu a {
+ font-size: 16px;
+ color: #000000;
+ text-decoration: none;
+}
+
+#banner{
+ background: url(./assets/hero-bg.png);
+ width: 1600px;
+ height: 674px;
+ padding: 0px;
+ margin: 0 auto;
+
+}
+
+#banner .banner-content{
+ text-align: center;
+padding: 70px 120px 134px 120px;
+
+ 
+}
+.banner-content .button{
+
+ background-color: #FFFFFF;
+ border: none;
+ padding: 8px 12px 8px 12px;
+ border-radius: 1000px;
+ font-size: 16px;
+ gap: 6px;
+ font-size: 16px;
+ font-weight: 500;
+ color: #469165;
+ text-align: center;
+ letter-spacing: 0%;
+ line-height: 19px;
+ cursor: pointer;
+ margin-bottom: 16px;
+}
